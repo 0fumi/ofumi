@@ -34,9 +34,8 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun _0fumiTheme(
+fun OfumiTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
